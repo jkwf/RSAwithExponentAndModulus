@@ -1,0 +1,13 @@
+PODS:
+  - GTMBase64 (1.0.0)
+  - OpenSSL (1.0.207)
+
+DEPENDENCIES:
+  - GTMBase64 (~> 1.0.0)
+  - OpenSSL (~> 1.0.207)
+
+SPEC CHECKSUMS:
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  OpenSSL: 26eb46b2836c0dade24fa53276b552f14c6eece1
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GTMBase64" "${PODS_ROOT}/Headers/Public/OpenSSL"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OpenSSL/lib" $(inherited) "${PODS_ROOT}/OpenSSL/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GTMBase64" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GTMBase64" -l"crypto" -l"ssl"
+PODS_ROOT = ${SRCROOT}/Pods
